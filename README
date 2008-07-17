@@ -3,23 +3,23 @@ perl-Gtk2-CV
 A fast GTK+ image viewer loosely modeled after XV
 
 Runtime requirements:
-  cygwin-1.5.25-11
+  cygwin-1.5.25-15
   file-4.21-1
-  gdk-pixbuf2-2.12.9-1
-  glib2-2.14.6-1
-  gtk2-x11-2.12.9-1
+  gdk-pixbuf2-2.12.11-1
+  glib2-2.16.4-1
+  gtk2-x11-2.12.11-1
   libjpeg62-6b-12
-  perl-5.10.0-3
-  perl-Glib-1.182-1
-  perl-Gtk2-1.182-1
+  perl-5.10.0-5
+  perl-Glib-1.183-1
+  perl-Gtk2-1.183-1
   perl-Gtk2-Ex-PodViewer-0.17-2
   perl-Gtk2-GladeXML-1.006-1
-  perl-IO-AIO-2.62-1
+  perl-IO-AIO-3.04-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20060817-1
-  cygport-0.3.9-1
+  binutils-20080523-2
+  cygport-0.3.12-1
   gcc-core-3.4.4-3
   make-3.81-1
 
@@ -32,15 +32,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Gtk2-CV-1.51-X-src.tar.bz2
+  unpack perl-Gtk2-CV-1.53-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Gtk2-CV-1.51-X.cygport all
+  cygport ./perl-Gtk2-CV-1.53-X.cygport all
 
 This will create:
-  /usr/src/perl-Gtk2-CV-1.51-X-src.tar.bz2
-  /usr/src/perl-Gtk2-CV-1.51-X.tar.bz2
+  /usr/src/perl-Gtk2-CV-1.53-X-src.tar.bz2
+  /usr/src/perl-Gtk2-CV-1.53-X.tar.bz2
 
 -------------------------------------------
 
@@ -89,8 +89,8 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/CV/images/file.png
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gtk2/CV/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gtk2/CV/CV.dll
-  /usr/share/doc/perl-Gtk2-CV-1.51/Changes
-  /usr/share/doc/perl-Gtk2-CV-1.51/README
+  /usr/share/doc/perl-Gtk2-CV-1.53/Changes
+  /usr/share/doc/perl-Gtk2-CV-1.53/README
   /usr/share/man/man1/cv.1.gz
   /usr/share/man/man3/Gtk2.CV.3pm.gz
   /usr/share/man/man3/Gtk2.CV.ImageWindow.3pm.gz
@@ -105,6 +105,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.53-1 -----
+Version bump.
 
 ----- version 1.51-1 -----
 Initial release for Cygwin.
