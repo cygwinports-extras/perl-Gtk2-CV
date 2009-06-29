@@ -1,4 +1,4 @@
 category: Graphics Gnome Perl
-requires: cygwin file glib2 gdk-pixbuf2 gtk2-x11 libjpeg62 perl perl-Glib perl-Gtk2 perl-Gtk2-Ex-PodViewer perl-Gtk2-GladeXML perl-IO-AIO
+requires: file glib2 gdk-pixbuf2 gtk2-x11 libjpeg62 perl perl-Glib perl-Gtk2 perl-Gtk2-Ex-PodViewer perl-Gtk2-GladeXML perl-IO-AIO
 sdesc: "XV-like GTK+ image viewer"
 ldesc: "A fast GTK+ image viewer loosely modeled after XV"
